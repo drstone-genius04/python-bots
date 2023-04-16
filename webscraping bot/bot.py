@@ -13,8 +13,8 @@ with open('phone_numbers.csv', 'r') as file:
     phone_numbers = [row[0] for row in reader]
 
 # Load the list of messages from the text file
-with open('messages.txt', 'r') as file:
-    messages = file.readlines()
+#with open('messages.txt', 'r') as file:
+    #messages = file.readlines()
 
 # Set up the Selenium webdriver for WhatsApp
 options = webdriver.ChromeOptions() 
