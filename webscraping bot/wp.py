@@ -25,4 +25,4 @@ async def on_ready():
     send_birthday_wishes.start()
     print('Bot is ready.')
 
-client.run('MTA5NjM3MTg0NzUwMDY3MzA1Ng.GmE2iW.eXYDD52ULS4HBa9eLvwU7ynmBx4_KFyQmYPHyA')
+client.run('your bot token')
