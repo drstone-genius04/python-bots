@@ -6,7 +6,7 @@ import sqlite3
 
 from discord.ext import tasks, commands
 
-client = commands.Bot(command_prefix='!')
+client = discord.Client(intents=discord.Intents.default())
 
 # Connect to the database
 conn = sqlite3.connect('imdb_data.db')
